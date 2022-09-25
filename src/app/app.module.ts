@@ -5,8 +5,8 @@ import { HttpClientModule } from '@angular/common/http';
 import { RouterModule } from '@angular/router';
 
 import { AppComponent } from './app.component';
-import { AdminLayoutComponent } from './layouts/admin-layout/admin-layout.component';
-import { AuthLayoutComponent } from './layouts/auth-layout/auth-layout.component';
+import { AdminLayoutComponent } from './modules/admin-module/admin-layout.component';
+import { AuthLayoutComponent } from './modules/auth-module/auth-layout.component';
 
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
